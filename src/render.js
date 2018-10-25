@@ -29,7 +29,6 @@ export const renderSeats = (seats, state) => {
   state.seats.selected.forEach((i) => {
     document.querySelector(`.seat-${i}`).classList.add('select');
   });
-
   state.seats.reserved.forEach((i) => {
     document.querySelector(`.seat-${i}`).classList.add('reserved');
   });

@@ -88,10 +88,8 @@ export default (dateNow) => {
   submit.addEventListener('click', () => {
     state.seats.reserved = [...state.seats.selected, ...state.seats.reserved];
     localStorage.setItem([state.time.currentDay, state.time.currentSession], state.seats.reserved);
-    state.seats.reserved.forEach((i) => {
-      document.querySelector(`.seat-${i}`).classList.add('reserved');
-    });
     state.seats.selected = [];
+    renderSeats(seats, state);
   });
   WatchJS.watch(state, 'reserve', () => {
     if (state.reserve.enable) {
