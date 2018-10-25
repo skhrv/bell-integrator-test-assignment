@@ -1,9 +1,6 @@
 import fs from 'fs';
 import path from 'path';
 import { html } from 'js-beautify';
-
-// import timer from 'timer-promise';
-
 import run from '../src/application';
 
 class LocalStorageMock {
