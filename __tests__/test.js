@@ -30,7 +30,7 @@ class LocalStorageMock {
 
 global.localStorage = new LocalStorageMock();
 
-const dateMock = 1540458022778;
+const dateMock = new Date('Thu Oct 25 2018 14:00:22').valueOf();
 
 const htmlOptions = {
   preserve_newlines: true,
@@ -45,7 +45,7 @@ beforeAll(() => {
   run(dateMock);
 });
 
-test('application', async () => {
+test('application', () => {
   expect(getTree()).toMatchSnapshot();
   const seat15 = document.querySelector('.seat-15');
   const submit = document.querySelector('.btn-submit');

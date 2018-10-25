@@ -145,7 +145,7 @@ exports[`application 2`] = `
         <span class=\\"seat seat-12\\" data-value=\\"12\\"></span>
         <span class=\\"seat seat-13\\" data-value=\\"13\\"></span>
         <span class=\\"seat seat-14\\" data-value=\\"14\\"></span>
-        <span class=\\"seat seat-15 select reserved\\" data-value=\\"15\\"></span>
+        <span class=\\"seat seat-15 reserved\\" data-value=\\"15\\"></span>
     </div>
     <div class=\\"row\\">
         <span class=\\"seat seat-16\\" data-value=\\"16\\"></span>
