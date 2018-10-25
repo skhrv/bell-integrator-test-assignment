@@ -1,0 +1,47 @@
+body {
+  min-width: 800px;
+  margin: 0;
+  padding: 0;
+  background-size: 1800 px auto;
+  font-size: 14px;
+  line-height: 24px;
+}
+.container {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.row {
+  margin-bottom: 10px;
+}
+
+.seat {
+  display: inline-block;
+  box-sizing: border-box;
+  margin-right: 10px;
+  width: 20px;
+  background: rgb(177, 238, 56);
+  height: 20px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.seat:hover {
+  background: rgb(56, 120, 238);
+}
+.seat.select {
+  background: rgb(27, 161, 27);
+}
+
+.seat.disable {
+  background: gray;
+}
+.seat.reserved {
+  background: red;
+}

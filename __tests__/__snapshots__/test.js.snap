@@ -1,0 +1,304 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`application 1`] = `
+"<div class=\\"container\\">
+    <h1>Бронирование билетов</h1>
+    <div>Текущая дата <span class=\\"current-date\\">2018/10/25</span></div>
+    <div>Выберите дату <select name=\\"\\" id=\\"selectDay\\">
+            <option>2018/10/18</option>
+            <option>2018/10/19</option>
+            <option>2018/10/20</option>
+            <option>2018/10/21</option>
+            <option>2018/10/22</option>
+            <option>2018/10/23</option>
+            <option>2018/10/24</option>
+            <option selected=\\"\\">2018/10/25</option>
+            <option>2018/10/26</option>
+            <option>2018/10/27</option>
+            <option>2018/10/28</option>
+            <option>2018/10/29</option>
+            <option>2018/10/30</option>
+            <option>2018/10/31</option>
+            <option>2018/11/01</option>
+        </select></div>
+    <div>Выберите сеанс <select name=\\"\\" id=\\"selectSession\\">
+            <option value=\\"10\\">10:00</option>
+            <option value=\\"12\\">12:00</option>
+            <option value=\\"14\\">14:00</option>
+            <option value=\\"16\\" selected=\\"\\">16:00</option>
+            <option value=\\"18\\">18:00</option>
+            <option value=\\"20\\">20:00</option>
+        </select></div>
+    <div class=\\"row\\">
+        <span class=\\"seat seat-1\\" data-value=\\"1\\"></span>
+        <span class=\\"seat seat-2\\" data-value=\\"2\\"></span>
+        <span class=\\"seat seat-3\\" data-value=\\"3\\"></span>
+        <span class=\\"seat seat-4\\" data-value=\\"4\\"></span>
+        <span class=\\"seat seat-5\\" data-value=\\"5\\"></span>
+        <span class=\\"seat seat-6\\" data-value=\\"6\\"></span>
+        <span class=\\"seat seat-7\\" data-value=\\"7\\"></span>
+        <span class=\\"seat seat-8\\" data-value=\\"8\\"></span>
+        <span class=\\"seat seat-9\\" data-value=\\"9\\"></span>
+        <span class=\\"seat seat-10\\" data-value=\\"10\\"></span>
+        <span class=\\"seat seat-11\\" data-value=\\"11\\"></span>
+        <span class=\\"seat seat-12\\" data-value=\\"12\\"></span>
+        <span class=\\"seat seat-13\\" data-value=\\"13\\"></span>
+        <span class=\\"seat seat-14\\" data-value=\\"14\\"></span>
+        <span class=\\"seat seat-15\\" data-value=\\"15\\"></span>
+    </div>
+    <div class=\\"row\\">
+        <span class=\\"seat seat-16\\" data-value=\\"16\\"></span>
+        <span class=\\"seat seat-17\\" data-value=\\"17\\"></span>
+        <span class=\\"seat seat-18\\" data-value=\\"18\\"></span>
+        <span class=\\"seat seat-19\\" data-value=\\"19\\"></span>
+        <span class=\\"seat seat-20\\" data-value=\\"20\\"></span>
+        <span class=\\"seat seat-21\\" data-value=\\"21\\"></span>
+        <span class=\\"seat seat-22\\" data-value=\\"22\\"></span>
+        <span class=\\"seat seat-23\\" data-value=\\"23\\"></span>
+        <span class=\\"seat seat-24\\" data-value=\\"24\\"></span>
+        <span class=\\"seat seat-25\\" data-value=\\"25\\"></span>
+        <span class=\\"seat seat-26\\" data-value=\\"26\\"></span>
+        <span class=\\"seat seat-27\\" data-value=\\"27\\"></span>
+        <span class=\\"seat seat-28\\" data-value=\\"28\\"></span>
+        <span class=\\"seat seat-29\\" data-value=\\"29\\"></span>
+        <span class=\\"seat seat-30\\" data-value=\\"30\\"></span>
+    </div>
+    <div class=\\"row\\">
+        <span class=\\"seat seat-31\\" data-value=\\"31\\"></span>
+        <span class=\\"seat seat-32\\" data-value=\\"32\\"></span>
+        <span class=\\"seat seat-33\\" data-value=\\"33\\"></span>
+        <span class=\\"seat seat-34\\" data-value=\\"34\\"></span>
+        <span class=\\"seat seat-35\\" data-value=\\"35\\"></span>
+        <span class=\\"seat seat-36\\" data-value=\\"36\\"></span>
+        <span class=\\"seat seat-37\\" data-value=\\"37\\"></span>
+        <span class=\\"seat seat-38\\" data-value=\\"38\\"></span>
+        <span class=\\"seat seat-39\\" data-value=\\"39\\"></span>
+        <span class=\\"seat seat-40\\" data-value=\\"40\\"></span>
+        <span class=\\"seat seat-41\\" data-value=\\"41\\"></span>
+        <span class=\\"seat seat-42\\" data-value=\\"42\\"></span>
+        <span class=\\"seat seat-43\\" data-value=\\"43\\"></span>
+        <span class=\\"seat seat-44\\" data-value=\\"44\\"></span>
+        <span class=\\"seat seat-45\\" data-value=\\"45\\"></span>
+    </div>
+    <div class=\\"row\\">
+        <span class=\\"seat seat-46\\" data-value=\\"46\\"></span>
+        <span class=\\"seat seat-47\\" data-value=\\"47\\"></span>
+        <span class=\\"seat seat-48\\" data-value=\\"48\\"></span>
+        <span class=\\"seat seat-49\\" data-value=\\"49\\"></span>
+        <span class=\\"seat seat-50\\" data-value=\\"50\\"></span>
+        <span class=\\"seat seat-51\\" data-value=\\"51\\"></span>
+        <span class=\\"seat seat-52\\" data-value=\\"52\\"></span>
+        <span class=\\"seat seat-53\\" data-value=\\"53\\"></span>
+        <span class=\\"seat seat-54\\" data-value=\\"54\\"></span>
+        <span class=\\"seat seat-55\\" data-value=\\"55\\"></span>
+        <span class=\\"seat seat-56\\" data-value=\\"56\\"></span>
+        <span class=\\"seat seat-57\\" data-value=\\"57\\"></span>
+        <span class=\\"seat seat-58\\" data-value=\\"58\\"></span>
+        <span class=\\"seat seat-59\\" data-value=\\"59\\"></span>
+        <span class=\\"seat seat-60\\" data-value=\\"60\\"></span>
+    </div>
+    <button>Забронировать</button>
+</div>"
+`;
+
+exports[`application 2`] = `
+"<div class=\\"container\\">
+    <h1>Бронирование билетов</h1>
+    <div>Текущая дата <span class=\\"current-date\\">2018/10/25</span></div>
+    <div>Выберите дату <select name=\\"\\" id=\\"selectDay\\">
+            <option>2018/10/18</option>
+            <option>2018/10/19</option>
+            <option>2018/10/20</option>
+            <option>2018/10/21</option>
+            <option>2018/10/22</option>
+            <option>2018/10/23</option>
+            <option>2018/10/24</option>
+            <option selected=\\"\\">2018/10/25</option>
+            <option>2018/10/26</option>
+            <option>2018/10/27</option>
+            <option>2018/10/28</option>
+            <option>2018/10/29</option>
+            <option>2018/10/30</option>
+            <option>2018/10/31</option>
+            <option>2018/11/01</option>
+        </select></div>
+    <div>Выберите сеанс <select name=\\"\\" id=\\"selectSession\\">
+            <option value=\\"10\\">10:00</option>
+            <option value=\\"12\\">12:00</option>
+            <option value=\\"14\\">14:00</option>
+            <option value=\\"16\\" selected=\\"\\">16:00</option>
+            <option value=\\"18\\">18:00</option>
+            <option value=\\"20\\">20:00</option>
+        </select></div>
+    <div class=\\"row\\">
+        <span class=\\"seat seat-1 select\\" data-value=\\"1\\"></span>
+        <span class=\\"seat seat-2\\" data-value=\\"2\\"></span>
+        <span class=\\"seat seat-3\\" data-value=\\"3\\"></span>
+        <span class=\\"seat seat-4\\" data-value=\\"4\\"></span>
+        <span class=\\"seat seat-5\\" data-value=\\"5\\"></span>
+        <span class=\\"seat seat-6\\" data-value=\\"6\\"></span>
+        <span class=\\"seat seat-7\\" data-value=\\"7\\"></span>
+        <span class=\\"seat seat-8\\" data-value=\\"8\\"></span>
+        <span class=\\"seat seat-9\\" data-value=\\"9\\"></span>
+        <span class=\\"seat seat-10\\" data-value=\\"10\\"></span>
+        <span class=\\"seat seat-11\\" data-value=\\"11\\"></span>
+        <span class=\\"seat seat-12\\" data-value=\\"12\\"></span>
+        <span class=\\"seat seat-13\\" data-value=\\"13\\"></span>
+        <span class=\\"seat seat-14\\" data-value=\\"14\\"></span>
+        <span class=\\"seat seat-15\\" data-value=\\"15\\"></span>
+    </div>
+    <div class=\\"row\\">
+        <span class=\\"seat seat-16\\" data-value=\\"16\\"></span>
+        <span class=\\"seat seat-17\\" data-value=\\"17\\"></span>
+        <span class=\\"seat seat-18\\" data-value=\\"18\\"></span>
+        <span class=\\"seat seat-19\\" data-value=\\"19\\"></span>
+        <span class=\\"seat seat-20\\" data-value=\\"20\\"></span>
+        <span class=\\"seat seat-21\\" data-value=\\"21\\"></span>
+        <span class=\\"seat seat-22\\" data-value=\\"22\\"></span>
+        <span class=\\"seat seat-23\\" data-value=\\"23\\"></span>
+        <span class=\\"seat seat-24\\" data-value=\\"24\\"></span>
+        <span class=\\"seat seat-25\\" data-value=\\"25\\"></span>
+        <span class=\\"seat seat-26\\" data-value=\\"26\\"></span>
+        <span class=\\"seat seat-27\\" data-value=\\"27\\"></span>
+        <span class=\\"seat seat-28\\" data-value=\\"28\\"></span>
+        <span class=\\"seat seat-29\\" data-value=\\"29\\"></span>
+        <span class=\\"seat seat-30\\" data-value=\\"30\\"></span>
+    </div>
+    <div class=\\"row\\">
+        <span class=\\"seat seat-31\\" data-value=\\"31\\"></span>
+        <span class=\\"seat seat-32\\" data-value=\\"32\\"></span>
+        <span class=\\"seat seat-33\\" data-value=\\"33\\"></span>
+        <span class=\\"seat seat-34\\" data-value=\\"34\\"></span>
+        <span class=\\"seat seat-35\\" data-value=\\"35\\"></span>
+        <span class=\\"seat seat-36\\" data-value=\\"36\\"></span>
+        <span class=\\"seat seat-37\\" data-value=\\"37\\"></span>
+        <span class=\\"seat seat-38\\" data-value=\\"38\\"></span>
+        <span class=\\"seat seat-39\\" data-value=\\"39\\"></span>
+        <span class=\\"seat seat-40\\" data-value=\\"40\\"></span>
+        <span class=\\"seat seat-41\\" data-value=\\"41\\"></span>
+        <span class=\\"seat seat-42\\" data-value=\\"42\\"></span>
+        <span class=\\"seat seat-43\\" data-value=\\"43\\"></span>
+        <span class=\\"seat seat-44\\" data-value=\\"44\\"></span>
+        <span class=\\"seat seat-45\\" data-value=\\"45\\"></span>
+    </div>
+    <div class=\\"row\\">
+        <span class=\\"seat seat-46\\" data-value=\\"46\\"></span>
+        <span class=\\"seat seat-47\\" data-value=\\"47\\"></span>
+        <span class=\\"seat seat-48\\" data-value=\\"48\\"></span>
+        <span class=\\"seat seat-49\\" data-value=\\"49\\"></span>
+        <span class=\\"seat seat-50\\" data-value=\\"50\\"></span>
+        <span class=\\"seat seat-51\\" data-value=\\"51\\"></span>
+        <span class=\\"seat seat-52\\" data-value=\\"52\\"></span>
+        <span class=\\"seat seat-53\\" data-value=\\"53\\"></span>
+        <span class=\\"seat seat-54\\" data-value=\\"54\\"></span>
+        <span class=\\"seat seat-55\\" data-value=\\"55\\"></span>
+        <span class=\\"seat seat-56\\" data-value=\\"56\\"></span>
+        <span class=\\"seat seat-57\\" data-value=\\"57\\"></span>
+        <span class=\\"seat seat-58\\" data-value=\\"58\\"></span>
+        <span class=\\"seat seat-59\\" data-value=\\"59\\"></span>
+        <span class=\\"seat seat-60\\" data-value=\\"60\\"></span>
+    </div>
+    <button>Забронировать</button>
+</div>"
+`;
+
+exports[`application 3`] = `
+"<div class=\\"container\\">
+    <h1>Бронирование билетов</h1>
+    <div>Текущая дата <span class=\\"current-date\\">2018/10/25</span></div>
+    <div>Выберите дату <select name=\\"\\" id=\\"selectDay\\">
+            <option>2018/10/18</option>
+            <option>2018/10/19</option>
+            <option>2018/10/20</option>
+            <option>2018/10/21</option>
+            <option>2018/10/22</option>
+            <option>2018/10/23</option>
+            <option>2018/10/24</option>
+            <option selected=\\"\\">2018/10/25</option>
+            <option>2018/10/26</option>
+            <option>2018/10/27</option>
+            <option>2018/10/28</option>
+            <option>2018/10/29</option>
+            <option>2018/10/30</option>
+            <option>2018/10/31</option>
+            <option>2018/11/01</option>
+        </select></div>
+    <div>Выберите сеанс <select name=\\"\\" id=\\"selectSession\\">
+            <option value=\\"10\\">10:00</option>
+            <option value=\\"12\\">12:00</option>
+            <option value=\\"14\\">14:00</option>
+            <option value=\\"16\\" selected=\\"\\">16:00</option>
+            <option value=\\"18\\">18:00</option>
+            <option value=\\"20\\">20:00</option>
+        </select></div>
+    <div class=\\"row\\">
+        <span class=\\"seat seat-1\\" data-value=\\"1\\"></span>
+        <span class=\\"seat seat-2\\" data-value=\\"2\\"></span>
+        <span class=\\"seat seat-3\\" data-value=\\"3\\"></span>
+        <span class=\\"seat seat-4\\" data-value=\\"4\\"></span>
+        <span class=\\"seat seat-5\\" data-value=\\"5\\"></span>
+        <span class=\\"seat seat-6\\" data-value=\\"6\\"></span>
+        <span class=\\"seat seat-7\\" data-value=\\"7\\"></span>
+        <span class=\\"seat seat-8\\" data-value=\\"8\\"></span>
+        <span class=\\"seat seat-9\\" data-value=\\"9\\"></span>
+        <span class=\\"seat seat-10\\" data-value=\\"10\\"></span>
+        <span class=\\"seat seat-11\\" data-value=\\"11\\"></span>
+        <span class=\\"seat seat-12\\" data-value=\\"12\\"></span>
+        <span class=\\"seat seat-13\\" data-value=\\"13\\"></span>
+        <span class=\\"seat seat-14\\" data-value=\\"14\\"></span>
+        <span class=\\"seat seat-15 select reserved\\" data-value=\\"15\\"></span>
+    </div>
+    <div class=\\"row\\">
+        <span class=\\"seat seat-16\\" data-value=\\"16\\"></span>
+        <span class=\\"seat seat-17\\" data-value=\\"17\\"></span>
+        <span class=\\"seat seat-18\\" data-value=\\"18\\"></span>
+        <span class=\\"seat seat-19\\" data-value=\\"19\\"></span>
+        <span class=\\"seat seat-20\\" data-value=\\"20\\"></span>
+        <span class=\\"seat seat-21\\" data-value=\\"21\\"></span>
+        <span class=\\"seat seat-22\\" data-value=\\"22\\"></span>
+        <span class=\\"seat seat-23\\" data-value=\\"23\\"></span>
+        <span class=\\"seat seat-24\\" data-value=\\"24\\"></span>
+        <span class=\\"seat seat-25\\" data-value=\\"25\\"></span>
+        <span class=\\"seat seat-26\\" data-value=\\"26\\"></span>
+        <span class=\\"seat seat-27\\" data-value=\\"27\\"></span>
+        <span class=\\"seat seat-28\\" data-value=\\"28\\"></span>
+        <span class=\\"seat seat-29\\" data-value=\\"29\\"></span>
+        <span class=\\"seat seat-30\\" data-value=\\"30\\"></span>
+    </div>
+    <div class=\\"row\\">
+        <span class=\\"seat seat-31\\" data-value=\\"31\\"></span>
+        <span class=\\"seat seat-32\\" data-value=\\"32\\"></span>
+        <span class=\\"seat seat-33\\" data-value=\\"33\\"></span>
+        <span class=\\"seat seat-34\\" data-value=\\"34\\"></span>
+        <span class=\\"seat seat-35\\" data-value=\\"35\\"></span>
+        <span class=\\"seat seat-36\\" data-value=\\"36\\"></span>
+        <span class=\\"seat seat-37\\" data-value=\\"37\\"></span>
+        <span class=\\"seat seat-38\\" data-value=\\"38\\"></span>
+        <span class=\\"seat seat-39\\" data-value=\\"39\\"></span>
+        <span class=\\"seat seat-40\\" data-value=\\"40\\"></span>
+        <span class=\\"seat seat-41\\" data-value=\\"41\\"></span>
+        <span class=\\"seat seat-42\\" data-value=\\"42\\"></span>
+        <span class=\\"seat seat-43\\" data-value=\\"43\\"></span>
+        <span class=\\"seat seat-44\\" data-value=\\"44\\"></span>
+        <span class=\\"seat seat-45\\" data-value=\\"45\\"></span>
+    </div>
+    <div class=\\"row\\">
+        <span class=\\"seat seat-46\\" data-value=\\"46\\"></span>
+        <span class=\\"seat seat-47\\" data-value=\\"47\\"></span>
+        <span class=\\"seat seat-48\\" data-value=\\"48\\"></span>
+        <span class=\\"seat seat-49\\" data-value=\\"49\\"></span>
+        <span class=\\"seat seat-50\\" data-value=\\"50\\"></span>
+        <span class=\\"seat seat-51\\" data-value=\\"51\\"></span>
+        <span class=\\"seat seat-52\\" data-value=\\"52\\"></span>
+        <span class=\\"seat seat-53\\" data-value=\\"53\\"></span>
+        <span class=\\"seat seat-54\\" data-value=\\"54\\"></span>
+        <span class=\\"seat seat-55\\" data-value=\\"55\\"></span>
+        <span class=\\"seat seat-56\\" data-value=\\"56\\"></span>
+        <span class=\\"seat seat-57\\" data-value=\\"57\\"></span>
+        <span class=\\"seat seat-58\\" data-value=\\"58\\"></span>
+        <span class=\\"seat seat-59\\" data-value=\\"59\\"></span>
+        <span class=\\"seat seat-60\\" data-value=\\"60\\"></span>
+    </div>
+    <button class=\\"btn-submit\\">Забронировать</button>
+</div>"
+`;
