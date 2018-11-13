@@ -3,33 +3,32 @@ import dateFns from 'date-fns';
 import '@babel/polyfill';
 import { renderSelectDays, chooseCurrentSession, renderSeats } from './render';
 
-const state = {
-  reserve: {
-    enable: true,
-  },
-  time: {
-    dateNow: null,
-    currentDay: null,
-    currentSession: null,
-  },
-  seats: {
-    reserved: [],
-    selected: [],
-  },
-};
-
-const initialSeats = () => {
-  const reserved = localStorage[`${state.time.currentDay},${state.time.currentSession}`];
-  if (reserved === undefined) {
-    state.seats.reserved = [];
-  } else {
-    state.seats.reserved = reserved.split(',');
-  }
-  state.seats.selected = [];
-};
 
 export default (dateNow) => {
-  state.time.dateNow = dateNow;
+  const state = {
+    reserve: {
+      enable: true,
+    },
+    time: {
+      dateNow,
+      currentDay: null,
+      currentSession: null,
+    },
+    seats: {
+      reserved: [],
+      selected: [],
+    },
+  };
+
+  const initialSeats = () => {
+    const reserved = localStorage[`${state.time.currentDay},${state.time.currentSession}`];
+    if (reserved === undefined) {
+      state.seats.reserved = [];
+    } else {
+      state.seats.reserved = reserved.split(',');
+    }
+    state.seats.selected = [];
+  };
   const presentDay = dateFns.format(dateNow, 'YYYY/MM/DD');
   const presentHour = dateFns.getHours(dateNow);
   const canReserve = (date, hour) => dateFns.isAfter(date, presentDay)
